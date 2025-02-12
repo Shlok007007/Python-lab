@@ -308,9 +308,36 @@ else:print("The perimeter of the rectangle is greater than area.")
 
 
 11.Given three points (x1,y1), (x2,y2) and (x3,y3), check if all the three points fall on one straight line.
+x1=int(input("Please enter the coordinates:"))
+x2=int(input("Please enter the coordinates :"))
+x3=int(input("Please enter the coordinates :"))
+y1=int(input("Please enter the coordinates:"))
+y2=int(input("Please enter the coordinates :"))
+y3=int(input("Please enter the coordinates:"))
+m=(y1-y2)/(x1-x2)
+g=(y2-y3)/(x2-x3)
+r=(y1-y3)/(x1-x3)
+if ((m==g) and (g==r)):
+ print("They lie on the same line.")
+else:
+ print ("They are not on the same line.")
+
 
 
 12.Given the coordinates (x,y) of center of a circle and its radius, determine whether a point lies inside the circle, on the circle or outside the circle. (Hint: Use sqrt( ), pow( ) )
+from math import *
+x=int(input("Please enter the coordinates:"))
+y=int(input("Please enter the coordinates :"))
+x1=int(input("Please enter the coordinates:"))
+y1=int(input("Please enter the coordinates :"))
+z=int(input("Please enter the radius of circle:"))
+if (z==sqrt(pow((x-x1),2)+pow((y-y1),2))):
+ print("They lie on the circle.")
+elif (z>sqrt(pow((x-x1),2)+pow((y-y1),2))):
+ print ("They are inside the circle.")
+else:
+ print ("They are outside the circle.")
+
 
 
 13.Convert number 0 to 19 to its equivalent words. E.g. 0 🡪 zero, 19🡪nineteen.
