@@ -1,0 +1,341 @@
+1. WRITE PYTHON PROGRAMS FOR THE FOLLOWING. (SIMPLE 
+PROGRAMS)
+
+
+
+1.  Add two numbers.
+
+a=int(input("Please enter the value of 1st number:"))
+b=int(input("Please enter the value of 2nd number:"))
+print(f"The sum of both numbers is {a+b}")
+
+
+2.Subtract 2 numbers.
+
+a=int(input("Please enter the value of 1st number:"))
+b=int(input("Please enter the value of 2nd number:"))
+print(f"The difference of both numbers is {a-b}")
+
+
+3.Multiply 2 numbers.
+
+a=int(input("Please enter the value of 1st number:"))
+b=int(input("Please enter the value of 2nd number:"))
+print(f"The product of both numbers is {a*b}")
+
+
+4.Divide 2 numbers.
+
+a=int(input("Please enter the value of 1st number:"))
+b=int(input("Please enter the value of 2nd number:"))
+print(f"The division of both numbers gives {a/b}")
+
+
+5.Add, multiply, subtract and divide two numbers.
+
+a=int(input("Please enter the value of 1st number:"))
+b=int(input("Please enter the value of 2nd number:"))
+print(f"The sum of both numbers is {a+b}")
+print(f"The product of both numbers is {a*b}")
+print(f"The difference of both numbers is {a-b}")
+print(f"The division of both numbers gives {a/b}")
+
+
+6.Convert hours into minutes.
+
+a=int(input("Please enter the number of hours elapsed:"))
+print(f"The amount of time elapsed in minutes is {a*60}")
+
+
+
+7. Convert minutes into hours
+
+a=int(input("Please enter the number of minutes elapsed:"))
+print(f"The amount of time elapsed in hours is {a/60}")
+
+
+8. Convert dollars into Rs. Where 1 $ = 48 Rs.
+
+a=int(input("Please enter the amount of Dollars to be converted in Rupees :"))
+print(f"The amount of money in Rupees is {a*48}")
+
+
+
+9. Convert Rs. into dollars where 1 $ = 48 Rs.
+
+a=int(input("Please enter the amount of Rupees to be converted in Dollars :"))
+print(f"The amount of money in Dollars is {a/48}")
+
+
+
+
+10.Convert dollars into pound where 1 $ = 48 Rs. And 1 pound = 70 Rs.
+
+a=int(input("Please enter the amount of Dollars to be converted in Pounds :"))
+print(f"The amount of money in Rupees is {a*48/70}")
+
+
+
+11.Convert grams into kg.
+
+a=int(input("Please enter the amount of grams to be converted in Kg :"))
+print(f"The amount of weight in Kg is {a/1000}")
+
+
+
+12.Convert kgs into grams.
+
+a=int(input("Please enter the amount of Kg to be converted in grams :"))
+print(f"The amount of weight in grams is {a*1000}")
+
+
+13.Convert bytes into KB, MB and GB.
+
+a=int(input("Please enter the amount of Bytes to be converted in KB,MB,GB :"))
+print(f"The amount of memory in KB is {a/10**3}")
+print(f"The amount of memory in MB is {a/10**6}")
+print(f"The amount of memory in GB is {a/10**9}")
+
+
+14.Convert celsius into Fahrenheit. F = (9/5 * C) + 32
+
+C=float(input("Please enter the value of Celsius  to be converted in Fahrenheit:"))
+print(f"The temperature in Fahrenheit is {(9/5 * C) + 32}")
+
+
+
+15.Convert Fahrenheit into celsius. C = 5/9 * (F – 32)
+
+F=float(input("Please enter the value of Fahrenheit to be converted in Celsius:"))
+print(f"The temperature in Celsius is {5*(F-32)/9}")
+
+
+
+16.Calculate interest where I = PRN/100.
+
+p=float(input("Please enter the value of Principle amount:"))
+r=float(input("Please enter the value of rate of interest:"))
+n=float(input("Please enter the value of time :"))
+print(f"The interest  is {p*r*n/100}")
+
+
+
+17.Calculate area & perimeter of a square. A = L^2, P = 4L
+
+a=int(input("Please enter the length of square:"))
+print(f"The area and perimeter of the square are {a*a}and {4*a}.")
+
+
+18.Calculate area & perimeter of a rectangle. A = L*B, P = 2 (L+B)
+
+a=int(input("Please enter the length of rectangle:"))
+b=int(input("Please enter the breadth of rectangle:"))
+print(f"The area and perimeter of the rectangle are {a*b}and {2*(a+b)}.")
+
+
+
+
+19.Calculate area of a circle. A = 22/7 * R * R
+
+a=int(input("Please enter the radius of circle:"))
+print(f"The area and perimeter of the circle is  {(22*a*a)/7}.")
+
+
+
+
+
+20.Calculate area of a triangle. A = H*L/2
+
+a=int(input("Please enter the length of triangle:"))
+b=int(input("Please enter the height of triangle:"))
+print(f"The area of the triangle is {(a*b)/2}.")
+
+
+
+21.Calculate net salary 
+where net salary = gross salary + allowance – deduction.
+Allowances are 10% while deductions are 3% of gross salary.
+
+a=float(input("Please enter your gross salary:"))
+print(f"Your net salary after allowances and deductions is {(a*0.1)+a-(a*0.03)}.")
+
+
+
+22.Calculate net sales where net sales = gross sales – 10% discount of gross 
+sales.
+
+a=float(input("Please enter your gross sales:"))
+print(f"Your net sales after discount in gross sales is {(a-(a*0.1)}.")
+
+
+
+
+23.Calculate average of three subjects along with their total.
+
+a=int(input("Please enter the marks of 1st subject:"))
+b=int(input("Please enter the marks of 2nd subject:"))
+c=int(input("Please enter the marks of 3rd subject:"))
+print(f"The average and total of all subjects is {(a+b+c)/3} ,{a+b+c}")
+
+
+24.Swap two values.
+
+a=int(input("Please enter the value of 1st number:"))
+b=int(input("Please enter the value of 2nd number:"))
+c=a
+a=b 
+b=c
+print(a,b)
+
+
+Write following programs in Python using If-Condition and Functions
+
+1.Print largest and smallest values out of two.
+
+a=int(input("Please enter the value of 1st number:"))
+b=int(input("Please enter the value of 2nd number:"))
+if a>b:
+    print("1st is greater than 2nd.")
+    
+elif a==b:
+    print("Both numbers are equal.")
+
+else:
+    print("2nd is greater than 1st.")
+
+
+a=int(input("Please enter the value of 1st number:"))
+b=int(input("Please enter the value of 2nd number:"))
+if a>b:
+    print("2nd is smaller than 1st.")
+    
+elif a==b:
+    print("Both numbers are equal.")
+
+else:
+    print("1st is smaller than 2nd.")
+
+
+
+
+2.Print largest and smallest values out of three.
+
+a=int(input("Please enter the value of 1st number:"))
+b=int(input("Please enter the value of 2nd number:"))
+c=int(input("Please enter the value of 3rd number:"))
+if a>b and  a>c:
+    print("1st is greater than all the three.")
+    
+elif a<b and c<b:
+    print("2nd is greater than all the three.")
+
+else:
+    print("3rd is greater than all the three.")
+
+
+
+
+
+a=int(input("Please enter the value of 1st number:"))
+b=int(input("Please enter the value of 2nd number:"))
+c=int(input("Please enter the value of 3rd number:"))
+if a<b and  a<c:
+    print("1st is smaller than all the three.")
+    
+elif b<a and b<c:
+    print("2nd is smaller than all the three.")
+
+else:
+    print("3rd is smaller than all the three.")
+
+
+
+
+3.Check whether a given number is odd or even.
+
+a=int(input("Please enter the number :"))
+if (a%2==0):print("The number is even.")
+else:print("The number is odd.")
+
+
+4.Check whether a given number is divisible by 10 or not.
+
+a=int(input("Please enter the number :"))
+if (a%10==0):print("The number is divisible by 10.")
+else:print("The number is not divisible by 10.")
+
+
+
+5.Accept age of a person. If age is less than 18, print minor otherwise Major.
+
+a=int(input("Please enter the age :"))
+if (a>18):print("You are major.")
+else:print("You are minor.")
+
+6.Accept a number from the user. And print the number of digits in it.
+
+
+7. Accept a year value from the user. Check whether it is a leap year or not.
+
+a=int(input("Please enter the year :"))
+if (a%4==0):print("The year is a leap year.")
+else:print("The year is not a leap year.")
+
+
+8.Check whether a triangle is valid or not, when the three angles of the triangle are entered through the keyboard. A triangle is valid if the sum of all the three angles is equal to 180 degrees.
+
+a=int(input("Please enter the values of 1st angle:"))
+b=int(input("Please enter the values of 2nd angle:"))
+c=int(input("Please enter the values of 3rd angle:"))
+if (a+b+c==180):print("It is a triangle.")
+else:print("It is not a triangle.")
+
+9.Print absolute value of a given number.
+
+a=int(input("Please enter the number :"))
+if (a>=0):print(f"The absolute value of the number is {a*1} .")
+else:print(f"The absolute value of number is {a*(-1)}.")
+
+
+10.Given the length and breadth of a rectangle, write a program to find whether the area of the rectangle is greater than its perimeter.
+
+a=int(input("Please enter the length of rectangle:"))
+b=int(input("Please enter the breadth of rectangle:"))
+p=2*(a+b)
+A=a*b
+if (A>p):print("The area of the rectangle is greater than perimeter.")
+else:print("The perimeter of the rectangle is greater than area.")
+
+
+11.Given three points (x1,y1), (x2,y2) and (x3,y3), check if all the three points fall on one straight line.
+
+
+12.Given the coordinates (x,y) of center of a circle and its radius, determine whether a point lies inside the circle, on the circle or outside the circle. (Hint: Use sqrt( ), pow( ) )
+
+
+13.Convert number 0 to 19 to its equivalent words. E.g. 0 🡪 zero, 19🡪nineteen.
+
+
+14.  Accept marks of three subjects. Print total and average along with whether a candidate has passed or fail. If student secures <= 39 marks in any subject, consider him as fail. Also assigned a subject wise grade based on the following table:
+
+
+Marks Range
+Grade
+Absent
+NA
+0-39
+F
+40-44
+P
+45-49
+C
+50-54
+B
+55-59
+B+
+60-69
+A
+70-79
+A+
+80-100
+O
